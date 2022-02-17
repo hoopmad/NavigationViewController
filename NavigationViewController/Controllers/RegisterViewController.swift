@@ -16,6 +16,7 @@ class RegisterViewController: UIViewController, UIGestureRecognizerDelegate {
         
         self.navigationController?.isNavigationBarHidden = true
         
+        // swipe right guesture
         self.navigationController?.interactivePopGestureRecognizer?.delegate = self
         
     }
