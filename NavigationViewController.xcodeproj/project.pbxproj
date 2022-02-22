@@ -14,6 +14,7 @@
 		7621DEE227BE617600E77CE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7621DEE127BE617600E77CE6 /* Assets.xcassets */; };
 		7621DEE527BE617600E77CE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7621DEE327BE617600E77CE6 /* LaunchScreen.storyboard */; };
 		7621DEED27BE6A3D00E77CE6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7621DEEC27BE6A3D00E77CE6 /* RegisterViewController.swift */; };
+		76E86D0A27C50632000CC1EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E86D0927C50632000CC1EF /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7621DEE427BE617600E77CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7621DEE627BE617600E77CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7621DEEC27BE6A3D00E77CE6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		76E86D0927C50632000CC1EF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				7621DEDC27BE617400E77CE6 /* LoginViewController.swift */,
 				7621DEEC27BE6A3D00E77CE6 /* RegisterViewController.swift */,
+				76E86D0927C50632000CC1EF /* MainViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				7621DED927BE617400E77CE6 /* AppDelegate.swift in Sources */,
 				7621DEDB27BE617400E77CE6 /* SceneDelegate.swift in Sources */,
 				7621DEED27BE6A3D00E77CE6 /* RegisterViewController.swift in Sources */,
+				76E86D0A27C50632000CC1EF /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
